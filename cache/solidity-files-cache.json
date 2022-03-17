@@ -1,0 +1,918 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/kaz/Documents/twinkleswap-core/contracts/interfaces/IERC20.sol": {
+      "lastModificationDate": 1647523073490,
+      "contentHash": "fde648c1aa358aa79bfe230185a35aab",
+      "sourceName": "contracts/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/kaz/Documents/twinkleswap-core/contracts/interfaces/IWETH.sol": {
+      "lastModificationDate": 1647523073492,
+      "contentHash": "90eee852810cec7aa8af6f2df8a7cf4c",
+      "sourceName": "contracts/interfaces/IWETH.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IWETH"
+      ]
+    },
+    "/Users/kaz/Documents/twinkleswap-core/contracts/interfaces/IUniswapV2Callee.sol": {
+      "lastModificationDate": 1647523073490,
+      "contentHash": "0933740ecc73a75644b3639c51ed456c",
+      "sourceName": "contracts/interfaces/IUniswapV2Callee.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV2Callee"
+      ]
+    },
+    "/Users/kaz/Documents/twinkleswap-core/contracts/interfaces/IUniswapV2Factory.sol": {
+      "lastModificationDate": 1647523073491,
+      "contentHash": "2209698f6fea1e6867a73b9932a8b11e",
+      "sourceName": "contracts/interfaces/IUniswapV2Factory.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV2Factory"
+      ]
+    },
+    "/Users/kaz/Documents/twinkleswap-core/contracts/interfaces/IUniswapV2Pair.sol": {
+      "lastModificationDate": 1647523073491,
+      "contentHash": "ceb53e4d503d769a0372c9dec32b031d",
+      "sourceName": "contracts/interfaces/IUniswapV2Pair.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV2Pair"
+      ]
+    },
+    "/Users/kaz/Documents/twinkleswap-core/contracts/libraries/TransferHelper.sol": {
+      "lastModificationDate": 1647523073492,
+      "contentHash": "486d11859642c8ae9c04e7e33b47b89b",
+      "sourceName": "contracts/libraries/TransferHelper.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0"
+      ],
+      "artifacts": [
+        "TransferHelper"
+      ]
+    },
+    "/Users/kaz/Documents/twinkleswap-core/contracts/interfaces/IUniswapV2Router02.sol": {
+      "lastModificationDate": 1647523073491,
+      "contentHash": "540c5034d259bbfd839db6da81629ad6",
+      "sourceName": "contracts/interfaces/IUniswapV2Router02.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IUniswapV2Router01.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IUniswapV2Router02"
+      ]
+    },
+    "/Users/kaz/Documents/twinkleswap-core/contracts/interfaces/IUniswapV2Router01.sol": {
+      "lastModificationDate": 1647523073491,
+      "contentHash": "2bbb1a095415e36fa2e120c6072bdeee",
+      "sourceName": "contracts/interfaces/IUniswapV2Router01.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IUniswapV2Router01"
+      ]
+    },
+    "/Users/kaz/Documents/twinkleswap-core/contracts/interfaces/IUniswapV2ERC20.sol": {
+      "lastModificationDate": 1647523073491,
+      "contentHash": "d0aeb8a2eebbe85a4909a03467d22e43",
+      "sourceName": "contracts/interfaces/IUniswapV2ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV2ERC20"
+      ]
+    },
+    "/Users/kaz/Documents/twinkleswap-core/contracts/multicall/Multicall.sol": {
+      "lastModificationDate": 1647523073493,
+      "contentHash": "4525e4e1ce5d052fd18a5a8ce09d0689",
+      "sourceName": "contracts/multicall/Multicall.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "Multicall"
+      ]
+    },
+    "/Users/kaz/Documents/twinkleswap-core/contracts/UniswapV2Router02.sol": {
+      "lastModificationDate": 1647523073490,
+      "contentHash": "baac7e6132337da2e0c02167ad1c50cd",
+      "sourceName": "contracts/UniswapV2Router02.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IUniswapV2Router02.sol",
+        "./interfaces/IUniswapV2Factory.sol",
+        "./libraries/UniswapV2Library.sol",
+        "./libraries/TransferHelper.sol",
+        "./libraries/SafeMath.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IWETH.sol"
+      ],
+      "versionPragmas": [
+        "=0.6.12"
+      ],
+      "artifacts": [
+        "UniswapV2Router02"
+      ]
+    },
+    "/Users/kaz/Documents/twinkleswap-core/contracts/libraries/UniswapV2Library.sol": {
+      "lastModificationDate": 1647523073493,
+      "contentHash": "a6dd80d3510987c43b3b1349c2dfeb00",
+      "sourceName": "contracts/libraries/UniswapV2Library.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IUniswapV2Pair.sol",
+        "./SafeMath.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "UniswapV2Library"
+      ]
+    },
+    "/Users/kaz/Documents/twinkleswap-core/contracts/libraries/SafeMath.sol": {
+      "lastModificationDate": 1647523073492,
+      "contentHash": "46e0961646d5250fc8729c03394ef580",
+      "sourceName": "contracts/libraries/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.6.12"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/kaz/Documents/twinkleswap-core/contracts/test/ERC20test2.sol": {
+      "lastModificationDate": 1647523073495,
+      "contentHash": "2b2ea161f5964b4b828b2b8205897ac0",
+      "sourceName": "contracts/test/ERC20test2.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../libraries/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "=0.6.12"
+      ],
+      "artifacts": [
+        "ERC20test2"
+      ]
+    },
+    "/Users/kaz/Documents/twinkleswap-core/contracts/test/ERC20test1.sol": {
+      "lastModificationDate": 1647523073494,
+      "contentHash": "a563db1ff64c3a2417489bc15a80ba52",
+      "sourceName": "contracts/test/ERC20test1.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../libraries/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "=0.6.12"
+      ],
+      "artifacts": [
+        "ERC20test1"
+      ]
+    },
+    "/Users/kaz/Documents/twinkleswap-core/contracts/UniswapV2ERC20.sol": {
+      "lastModificationDate": 1647523136341,
+      "contentHash": "8ae713509581147d513a18f04d90dd99",
+      "sourceName": "contracts/UniswapV2ERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./libraries/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "=0.6.12"
+      ],
+      "artifacts": [
+        "UniswapV2ERC20"
+      ]
+    },
+    "/Users/kaz/Documents/twinkleswap-core/contracts/UniswapV2Pair.sol": {
+      "lastModificationDate": 1647523073490,
+      "contentHash": "6ce8abe8fa599079e5595e5298ea03ce",
+      "sourceName": "contracts/UniswapV2Pair.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./UniswapV2ERC20.sol",
+        "./libraries/Math.sol",
+        "./libraries/UQ112x112.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IUniswapV2Factory.sol",
+        "./interfaces/IUniswapV2Callee.sol"
+      ],
+      "versionPragmas": [
+        "=0.6.12"
+      ],
+      "artifacts": [
+        "UniswapV2Pair"
+      ]
+    },
+    "/Users/kaz/Documents/twinkleswap-core/contracts/libraries/Math.sol": {
+      "lastModificationDate": 1647523073492,
+      "contentHash": "e9192bdce889c8c5837e1669c8ebca90",
+      "sourceName": "contracts/libraries/Math.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.6.12"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "/Users/kaz/Documents/twinkleswap-core/contracts/libraries/UQ112x112.sol": {
+      "lastModificationDate": 1647523073493,
+      "contentHash": "d0a64f075dc62d1873cdd9a4af81c165",
+      "sourceName": "contracts/libraries/UQ112x112.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.6.12"
+      ],
+      "artifacts": [
+        "UQ112x112"
+      ]
+    },
+    "/Users/kaz/Documents/twinkleswap-core/contracts/UniswapV2Factory.sol": {
+      "lastModificationDate": 1647523073489,
+      "contentHash": "cc15c7cf158553db6446f752fb9c89cb",
+      "sourceName": "contracts/UniswapV2Factory.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IUniswapV2Factory.sol",
+        "./UniswapV2Pair.sol"
+      ],
+      "versionPragmas": [
+        "=0.6.12"
+      ],
+      "artifacts": [
+        "UniswapV2Factory"
+      ]
+    },
+    "/Users/kaz/Documents/twinkleswap-core/contracts/test/ERC20.sol": {
+      "lastModificationDate": 1647523073494,
+      "contentHash": "419b3a3b0d747be05b4362d21a79d24e",
+      "sourceName": "contracts/test/ERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../UniswapV2ERC20.sol"
+      ],
+      "versionPragmas": [
+        "=0.6.12"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    }
+  }
+}
