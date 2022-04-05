@@ -1,6 +1,5 @@
 # TwinkleSwap
 
-
 These are the core contracts of TwinkleSwap. In-depth documentation can be found at [docs.twinkleswap.finance] (https://docs.twinkleswap.finance).
 
 Originally a fork of Uniswap V2, see In-depth documentation at [uniswap.org](https://uniswap.org/docs).
@@ -22,8 +21,3 @@ The following assumes the use of `node@>=10`.
 ## Run Tests
 
 `yarn test`
-
-
-# Contracts 
-
-https://www.figma.com/file/u115fnA2WpcF2Fggy7g3Vv/Untitled?node-id=1%3A102
